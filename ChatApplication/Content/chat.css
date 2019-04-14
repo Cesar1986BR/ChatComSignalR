@@ -1,0 +1,64 @@
+﻿
+#striped-list {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    overflow-y: auto;
+}
+ul#striped-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  
+}
+
+ul#striped-list > li {
+    border-bottom: 1px solid rgb(221,221,221);
+    padding: 8px;
+}
+
+ul#striped-list > li:nth-of-type(odd) {
+    background-color: #5EA2CB;
+}
+
+ul#striped-list > li:last-child {
+    border-bottom: none;
+}
+
+.list-msg {
+    width: 100%;
+}
+
+#horariomsg {
+    float: right;
+}
+
+.btn-enviar {
+    margin-bottom: 10px;
+}
+
+#message {
+    height: 100px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    resize: none;
+    border-radius: 25px;
+    outline: none;
+    border-color: #5EA2CB;
+}
+
+.btn-enviar {
+    margin-bottom: 20px;
+}
+
+#titulo {
+    background-color: #74CB5E;
+    border-radius: 25px;
+}
+
+ #titulo h2 {
+     padding: 10px;
+     text-align: center;
+     color: white;
+ }
